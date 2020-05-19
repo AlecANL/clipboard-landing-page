@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,200&display=swap');
+
+$cyanStrong: hsl(171, 66%, 44%);
+$lightBlue: hsl(233, 100%, 69%);
+// Neutral
+$darkGrayish: hsl(210, 10%, 33%);
+$grayishBlue: hsl(201, 11%, 66%);
+
+/*Typography*/
+$mainFont: 18px;
+$familyFont: 'Bai Jamjuree', sans-serif;
+
+$breakpoints: (
+  s: 500px,
+  l: 1200px,
+  xl: 1440px,
+);
+
+@mixin from($bp) {
+  @if (map-has-key($breakpoints, $bp)) {
+    @media screen and(min-width: map-get($breakpoints , $bp )) {
+      @content;
+    }
+  } @else {
+    @media screen and(min-width: $bp) {
+      @content;
+    }
+  }
+}

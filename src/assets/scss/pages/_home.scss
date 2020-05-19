@@ -1,0 +1,101 @@
+.section-data-inf {
+  text-align: center;
+  padding: 1rem;
+  @include from(s) {
+    padding: 5rem;
+  }
+}
+.data-inf--title {
+  color: $darkGrayish;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+  @include from(s) {
+    margin: 0;
+  }
+}
+.data-inf--description {
+  color: $grayishBlue;
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+}
+/* **** **** ---- Clipboard ---- ****  **** */
+.section-access-clipboard {
+  text-align: center;
+  padding: 1rem;
+  @include from(s) {
+    margin-top: 8rem;
+  }
+}
+.clipboard-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $darkGrayish;
+  margin-top: 4rem;
+}
+.clipboard-description {
+  color: $grayishBlue;
+  margin-top: 1rem;
+  @include from(s) {
+    width: 70%;
+    margin: 2rem auto;
+  }
+}
+.clipboard-image-container {
+  margin-top: 3rem;
+}
+.clipboard-data-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: $darkGrayish;
+  margin-top: 3rem;
+}
+.clipboard-data-description {
+  color: $grayishBlue;
+  margin-top: 1rem;
+}
+.grid-clipboard {
+  margin-top: 3rem;
+  @include from(s) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.clipboard-card {
+  margin-top: 3rem;
+}
+.card-title {
+  font-weight: 600;
+  color: $darkGrayish;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+.card-description {
+  margin-top: 1rem;
+  color: $grayishBlue;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+/* ----- #### #### Section brands ##### #####-----*/
+.contain-grid-images {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  @include from(l) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.image-brand {
+  margin-top: 3.6rem;
+}
+.container-clipboard {
+  @include from(s) {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
