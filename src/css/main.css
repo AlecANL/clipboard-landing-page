@@ -1,5 +1,7 @@
 @import url('./components/hero.css');
 @import url('./components/features.css');
+@import url('./components/overview.css');
+@import url('./components/info.css');
 @import url('./components/buttons.css');
 
 :root {
