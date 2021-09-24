@@ -1,0 +1,52 @@
+@import url('./components/hero.css');
+@import url('./components/features.css');
+@import url('./components/buttons.css');
+
+:root {
+  --bg-color: #f2f2f2;
+  --just-white: #fff;
+  --txt-grey: #9eabb2;
+  --just-green: #26bba4;
+  --just-blue: #6174ff;
+  --txt-headline: #4c545c;
+  --baseFont: 'Bai Jamjuree', sans-serif;
+  --mobile-headline1Bold: 600 2rem / 2.5rem var(--baseFont);
+  --mobile-body1Regular: 400 1rem / 1.625rem var(--baseFont);
+  --mobile-body1Bold: 600 1.125rem / 1.875rem var(--baseFont);
+  --mobile-headline2Bold: 600 1.75rem / 2.1875rem var(--baseFont);
+  --mobile-headline3Bold: 600 1.5rem / 1.875rem var(--baseFont);
+  --desktop-headline1Bold: 600 2.875rem / 3.5625rem var(--baseFont);
+  --desktop-body1Regular: 400 1.125rem / 1.875rem var(--baseFont);
+  --desktop-headline2Bold: 600 2.25rem / 2.8125rem var(--baseFont);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  font-family: var(--baseFont);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--txt-headline);
+  margin: 0;
+}
+p {
+  color: var(--txt-grey);
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.wrapper {
+  max-inline-size: 1100px;
+  margin: auto;
+}

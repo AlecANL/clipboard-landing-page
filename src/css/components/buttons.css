@@ -1,0 +1,28 @@
+.btn {
+  padding-inline: 2rem;
+  padding-block: 0.75rem;
+  border-color: transparent;
+  border-radius: 1.75rem;
+  font: var(--mobile-body1Bold);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.is-blue {
+  background-color: var(--just-blue);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  color: var(--just-white);
+}
+
+.is-green {
+  background-color: var(--just-green);
+  color: var(--just-white);
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover {
+  opacity: 0.5;
+}
